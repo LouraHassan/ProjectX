@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(180, 143, 236);
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link{
+    color: rgb(194, 58, 103);
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+}
+
+.title{
+    font-size: xx-large;
+}
+.subtitle{
+    color: brown;
+}
+li{
+    font-weight: bold;
+    font-style: italic;
+}
