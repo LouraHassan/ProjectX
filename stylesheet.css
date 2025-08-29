@@ -15,9 +15,37 @@ body{
     font-size: xx-large;
 }
 .subtitle{
-    color: brown;
+    color: rgb(230, 188, 188);
 }
 li{
     font-weight: bold;
     font-style: italic;
+}
+.box{
+    width: 20vw;
+    height: 20vw;
+    background-color: white;
+    border: 4px black solid;
+    color: black;
+    padding: 4%;
+    margin: 5%
+}
+
+.list-container{
+    border: 2px grey solid;
+    background-color: rgb(92, 150, 152);
+    width: fit-content;
+    height: fit-content;
+    padding: 2vw;
+  
+}
+.main-dev{
+    display: flex;
+    border: 2px rgb(41, 39, 39) solid;
+    justify-content: center;
+    gap: 2vw;
+    width: fit-content;
+    padding: 4vw;
+    align-items: center;
+    height: fit-content;
 }
