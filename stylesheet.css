@@ -1,6 +1,7 @@
 body{
     background-color: rgb(121, 108, 141);
     color: beige;
+    padding: 4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -73,8 +74,27 @@ li{
     grid-column: span 2;
     
 }
-
 .img{
     width: 100%;
 }
 
+@media (max-width: 768px) and (min-width: 432px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+         margin: 8vw;
+    }
+    .item-1{
+        grid-row: 2;
+    }
+}
+@media (max-width: 431px){
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: min-content;
+         margin: 2vw;
+    }
+    .grid-item-span{
+        grid-column: 1;
+    }
+  
+}
