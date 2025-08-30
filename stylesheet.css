@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(180, 143, 236);
+    background-color: rgb(121, 108, 141);
     color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -49,3 +49,32 @@ li{
     align-items: center;
     height: fit-content;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 4vw;
+    gap: 2vw;
+}
+
+.grid-item{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding: 2vw;
+    height: fit-content;
+    border-radius: 2vw;
+    box-shadow: 1px 1px 2vw rgb(65, 65, 65);
+}
+.grid-item-span{
+    grid-column: span 2;
+    
+}
+
+.img{
+    width: 100%;
+}
+
