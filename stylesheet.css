@@ -1,101 +1,117 @@
-body{
-    background-color: rgb(121, 108, 141);
-    color: beige;
-    padding: 4vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  background-color: rgb(121, 108, 141);
+  color: beige;
+  padding: 4vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.link{
-    color: rgb(194, 58, 103);
-    text-decoration: none;
-    font-style: italic;
-    font-size: larger;
+.link {
+  color: rgb(194, 58, 103);
+  text-decoration: none;
+  font-style: italic;
+  font-size: larger;
 }
 
-.title{
-    font-size: xx-large;
+.title {
+  font-size: xx-large;
 }
-.subtitle{
-    color: rgb(230, 188, 188);
+.subtitle {
+  color: rgb(230, 188, 188);
 }
-li{
-    font-weight: bold;
-    font-style: italic;
+li {
+  font-weight: bold;
+  font-style: italic;
 }
-.box{
-    width: 20vw;
-    height: 20vw;
-    background-color: white;
-    border: 4px black solid;
-    color: black;
-    padding: 4%;
-    margin: 5%
-}
-
-.list-container{
-    border: 2px grey solid;
-    background-color: rgb(92, 150, 152);
-    width: fit-content;
-    height: fit-content;
-    padding: 2vw;
-  
-}
-.main-dev{
-    display: flex;
-    border: 2px rgb(41, 39, 39) solid;
-    justify-content: center;
-    gap: 2vw;
-    width: fit-content;
-    padding: 4vw;
-    align-items: center;
-    height: fit-content;
+.box {
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  border: 4px black solid;
+  color: black;
+  padding: 4%;
+  margin: 5%;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 4vw;
-    gap: 2vw;
+.list-container {
+  border: 2px grey solid;
+  background-color: rgb(92, 150, 152);
+  width: fit-content;
+  height: fit-content;
+  padding: 2vw;
+}
+.main-dev {
+  display: flex;
+  border: 2px rgb(41, 39, 39) solid;
+  justify-content: center;
+  gap: 2vw;
+  width: fit-content;
+  padding: 4vw;
+  align-items: center;
+  height: fit-content;
 }
 
-.grid-item{
-    background-color: rgb(234, 234, 234);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    padding: 2vw;
-    height: fit-content;
-    border-radius: 2vw;
-    box-shadow: 1px 1px 2vw rgb(65, 65, 65);
-}
-.grid-item-span{
-    grid-column: span 2;
-    
-}
-.img{
-    width: 100%;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 4vw;
+  gap: 2vw;
 }
 
-@media (max-width: 768px) and (min-width: 432px){
-    .grid-container{
-        grid-template-columns: repeat(2,1fr);
-         margin: 8vw;
-    }
-    .item-1{
-        grid-row: 2;
-    }
+.grid-item {
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  padding: 2vw;
+  height: fit-content;
+  border-radius: 2vw;
+  box-shadow: 1px 1px 2vw rgb(65, 65, 65);
 }
-@media (max-width: 431px){
-    .grid-container{
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: min-content;
-         margin: 2vw;
-    }
-    .grid-item-span{
-        grid-column: 1;
-    }
-  
-    
+.grid-item-span {
+  grid-column: span 2;
+}
+.img {
+  width: 100%;
+}
+
+@media (max-width: 768px) and (min-width: 432px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8vw;
+  }
+  .item-1 {
+    grid-row: 2;
+  }
+}
+@media (max-width: 431px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: min-content;
+    margin: 2vw;
+  }
+  .grid-item-span {
+    grid-column: 1;
+  }
+}
+
+.input {
+  padding: 2vw;
+  border-radius: 2vw;
+  border-width: 0;
+  margin: 1vw;
+}
+.input-color {
+  border-radius: 2vw;
+  border-width: 0;
+  margin: 1vw;
+}
+.button {
+  padding: 2vw;
+  background-color: rgb(11, 34, 35);
+  border-radius: 2vw;
+  border-width: 0;
+  color: white;
+
 }
