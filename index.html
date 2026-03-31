@@ -5,46 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project X</title>
     <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h2 class="title">Profile page</h2>
-    <a href="home.html" class="link">
-      <h5>Home</h5>
-    </a>
-    <h4>testing cloned project</h4>
-    <h3>Hi I'm Loura, and I'm learning web development</h3>
-    <div class="main-dev">
-      <div class="list-container">
-        <h4 class="subtitle">my favorite food</h4>
-        <ol type="a">
-          <li>burger</li>
-          <li>pizza</li>
-          <li>steak</li>
-        </ol>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="home.html"
+                >Grid with CSS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="bootstrap.html"
+                >Grid with Bootstrap</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="dom.html">DOM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="objects.html"
+                >Objects</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
-      <div class="list-container">
-        <h4 class="subtitle">my hobbies</h4>
-        <ul type="square">
-          <li>coding</li>
-          <li>solving puzzle</li>
-        </ul>
-      </div>
-      <div class="list-container">
-        <h4 class="subtitle">my hobbies</h4>
-        <ul type="square">
-          <li>coding</li>
-          <li>solving puzzle</li>
-        </ul>
-      </div>
+    <div
+      class="border vh-100 d-flex flex-column justify-content-center align-items-center"
+      style="background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(4, 37, 71, 1) 100%);"
+    >
+      <p class="display-1 text-white">Welcome to my website</p>
+      <p class="display-6 text-white">strat by clicking on the links in the navbar</p>
     </div>
-
-    <div class="box">
-      <h4>test</h4>
-    </div>
-
-    <a href="https://github.com/LouraHassan/ProjectX" target="_blank">
-      <img src="images/github.png" alt="github logo" width="45" />
-    </a>
   </body>
 </html>

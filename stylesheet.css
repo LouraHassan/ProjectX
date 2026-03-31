@@ -1,7 +1,6 @@
 body {
   background-color: rgb(121, 108, 141);
   color: beige;
-  padding: 4vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -18,10 +17,7 @@ body {
 .subtitle {
   color: rgb(230, 188, 188);
 }
-li {
-  font-weight: bold;
-  font-style: italic;
-}
+
 .box {
   width: 20vw;
   height: 20vw;
@@ -59,7 +55,7 @@ li {
 }
 
 .grid-item {
-  background-color: rgb(234, 234, 234);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +63,7 @@ li {
   padding: 2vw;
   height: fit-content;
   border-radius: 2vw;
-  box-shadow: 1px 1px 2vw rgb(65, 65, 65);
+ border: 1px rgb(192, 191, 191) solid
 }
 .grid-item-span {
   grid-column: span 2;
